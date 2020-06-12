@@ -1,0 +1,10 @@
+<p>Angular Componente Home</p>
+<p>{{ msg }}</p>
+<p>{{ legenda }}</p>
+
+<!-- One way data binding -->
+<!--<input type="text" [value]="legenda"> -->
+<!-- Two way data binding -->
+<input type="text" [(ngModel)]="legenda">
+
+<button (click)="resetLegenda()">Reset Legenda</button>
